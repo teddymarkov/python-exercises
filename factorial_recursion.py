@@ -1,10 +1,20 @@
 # SRC: https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt
 
-a = int(input("Enter a number: "))
 
-def fact(b):
+def get_factorial(b: int) -> int:
     if b == 0:
         return 1
-    return b * fact(b - 1)
+    return b * get_factorial(b - 1)
 
-print(fact(a))
+
+def output_fact(res: int):
+    print(str(res))
+
+
+def main():
+    a = int(input("Enter a number: "))
+    output_fact(get_factorial(a))
+
+
+if __name__ == "__main__":
+    main()

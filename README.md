@@ -1,7 +1,7 @@
 
-# python-exercises
+# Python Exercises
 
-Contains code snippets from various exercises in Python
+Contains code snippets from various exercise solutions in Python.
 
 Good sources of tasks:
 
